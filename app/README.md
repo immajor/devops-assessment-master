@@ -1,3 +1,12 @@
+First commit into the main because it is more simple and there is nothing in the app so far.
+I know it might be forbided in a real environment, but I do it like this this time.
+
+Later I will use branches and PR-s.
+
+The app uses port 8000
+
+
+# #################################################################
 # Application Requirements
 
 Create a small service in **Go** or **Python** with the following endpoints.

@@ -25,3 +25,5 @@ spec:
           env:
             - name: ENVIRONMENT
               value: "{{ .Values.environment }}"
+            - name: AppVersion
+              value: "{{ .Chart.AppVersion }}"

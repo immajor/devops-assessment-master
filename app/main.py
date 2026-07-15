@@ -25,7 +25,8 @@ def get_health():
 # GET /version
 @app.get("/version")
 def get_version():
-    return {"version": "1.0.0"}
+    version_value = os.getenv("APP_VERSION", "1.0.0")
+    return {"version": version_value}
 
 
 # GET /env

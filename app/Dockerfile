@@ -22,13 +22,13 @@ COPY main.py .
 
 ENV PATH=/home/appuser/.local/bin:$PATH
 ENV PYTHONUNBUFFERED=1
-ENV ENVIRONMENT=production
+ENV ENVIRONMENT=TO_BE_DETERMINED
 
 RUN chown -R appuser:appgroup /app
 
 USER appuser
 
-# Set port 8000
-EXPOSE 8000
+# Set port 8080
+EXPOSE 8080
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]

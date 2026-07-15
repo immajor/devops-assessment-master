@@ -3,7 +3,11 @@ I know it might be forbided in a real environment, but I do it like this this ti
 
 Later I will use branches and PR-s.
 
-The app uses port 8000
+The app uses port 8080
+
+The python app uses a non root user
+
+The environment value will come from helm, and it can be automatically tested if it is not updated corerctly.
 
 
 # #################################################################
